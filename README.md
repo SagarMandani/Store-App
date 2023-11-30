@@ -11,7 +11,9 @@
     <img src="src/screenshot/Screenshot_1701346072.png" alt="Screenshot" height="400px width="300px"</img>
     <img src="src/screenshot/Screenshot_1701346080.png" alt="Screenshot" height="400px width="300px"</img>
     <img src="src/screenshot/Screenshot_1701346119.png" alt="Screenshot" height="400px width="300px"</img>
-</div>   
+</div>
+
+https://github.com/SagarMandani/Store-App/assets/30593625/d9cd2559-11a9-496c-80d5-3fb47df7cc20
 
 <hr />
 <h3>Installation and Usage</h3>
