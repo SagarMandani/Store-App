@@ -1,8 +1,38 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Store app
 
-# Getting Started
+<hr />
+<div align="center">
+    <img src="src/screenshot/Screenshot_1701346017.png" alt="Screenshot" height="400px width="300px"</img>
+    <img src="src/screenshot/Screenshot_1701346019.png" alt="Screenshot" height="400px width="300px"</img>
+    <img src="src/screenshot/Screenshot_1701346023.png" alt="Screenshot" height="400px width="300px"</img>
+    <img src="src/screenshot/Screenshot_1701346038.png" alt="Screenshot" height="400px width="300px"</img>
+    <img src="src/screenshot/Screenshot_1701346098.png" alt="Screenshot" height="400px width="300px"</img>
+    <img src="src/screenshot/Screenshot_1701346119.png" alt="Screenshot" height="400px width="300px"</img>
+    <img src="src/screenshot/Screenshot_1701346066.png" alt="Screenshot" height="400px width="300px"</img>
+    <img src="src/screenshot/Screenshot_1701346072.png" alt="Screenshot" height="400px width="300px"</img>
+    <img src="src/screenshot/Screenshot_1701346080.png" alt="Screenshot" height="400px width="300px"</img>
+    <img src="src/screenshot/Screenshot_1701346119.png" alt="Screenshot" height="400px width="300px"</img>
+</div>   
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<hr />
+<h3>Installation and Usage</h3>
+<hr />
+
+Download or clone this repo by using the below link:
+
+```
+git clone https://github.com/SagarMandani/Store-App.git
+```
+
+Go to project root folder
+
+```
+cd Store-App
+```
+
+```
+npm or yarn install
+```
 
 ## Step 1: Start the Metro Server
 
@@ -22,24 +52,26 @@ yarn start
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
+Make sure you have an ios Simulator or Android Emulator running or have an ios device with you:
+
 ### For Android
 
-```bash
-# using npm
-npm run android
+yarn android to run the Android application (remember to start a simulator or connect an Android phone)
 
-# OR using Yarn
-yarn android
+```
+npx react-native run-android
 ```
 
-### For iOS
+### For IOS
 
-```bash
-# using npm
-npm run ios
+```
+cd ios && pod install && cd ..
+```
 
-# OR using Yarn
-yarn ios
+yarn ios to run the iOS application (remember to start a simulator or connect an iPhone phone)
+
+```
+npx react-native run-ios
 ```
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
