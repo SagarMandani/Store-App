@@ -1,6 +1,5 @@
 # Store app
 
-<hr />
 <div align="center">
     <img src="src/screenshot/Screenshot_1701346017.png" alt="Screenshot" height="400px width="300px"</img>
     <img src="src/screenshot/Screenshot_1701346019.png" alt="Screenshot" height="400px width="300px"</img>
