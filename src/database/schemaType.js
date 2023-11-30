@@ -1,0 +1,1 @@
+export const STORE_SCHEMA = 'store_info';

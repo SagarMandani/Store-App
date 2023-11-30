@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>stores</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+<key>NSAppleMusicUsageDescription</key>
+	<string>This will allow you to use music</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Never will be in use</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This will allow you to use your bluetooth</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This will allow you to use your calendar</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This will use the photo to display it on your profile</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Never will be in use</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Never will be in use</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Never will be in use</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Never will be in use</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Never will be in use</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(PRODUCT_NAME) would like to use your microphone (for videos)</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This will allow you to use motion</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>To upload profile picture, you need to allow access to your phone's photos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To upload profile picture, you need to allow access to your phone's photos.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Never will be in use</string>
+	<key>NSSiriUsageDescription</key>
+	<string>Never will be in use</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Never will be in use</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>
